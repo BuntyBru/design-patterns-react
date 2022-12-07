@@ -18,7 +18,10 @@ export function Fahrenheit(props: TempProps) {
   );
 }
 
-export default function TemperatureConverter() {
+export default function TemperatureConverter(props: {
+  renderFahrenheit: (props: TempProps) => JSX.Element;
+  renderKelvin: (props: TempProps) => JSX.Element;
+}) {
   const [value, setValue] = React.useState(0);
 
   return (
@@ -28,8 +31,8 @@ export default function TemperatureConverter() {
         placeholder="Degrees Celcius"
         onChange={(e) => setValue(parseInt(e.target.value))}
       />
-      <Kelvin value={Math.floor(value + 273.15)} />
-      <Fahrenheit value={Math.floor((value * 9) / 5 + 32)} />
+      {props.renderKelvin({ value: Math.floor(value + 273.15) })}
+      {props.renderFahrenheit({ value: Math.floor((value * 9) / 5 + 32) })}
     </div>
   );
 }
