@@ -1,5 +1,8 @@
+import React from "react";
+import House from "../components/HooksPatten/Houses";
+
 const HooksPattern = () => {
-  return <p>Hooks Pattern</p>;
+  return <House />;
 };
 
 export default HooksPattern;
