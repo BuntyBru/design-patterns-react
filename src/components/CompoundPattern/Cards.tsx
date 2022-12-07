@@ -13,6 +13,10 @@ const StyledImageContainer = styled.div`
   position: relative;
   height: 200px;
   width: 100%;
+  img {
+    widht: 100%;
+    height: 100%;
+  }
 `;
 
 const StyledDetailsContainer = styled.div`
@@ -24,9 +28,9 @@ type ImageProps = {
   image: string;
 };
 
-const Cards = (props: any) => {
+function Cards(props: any) {
   return <StyledCardContainer>{props.children}</StyledCardContainer>;
-};
+}
 
 const ImageSection = ({ title, image }: ImageProps) => {
   return (
@@ -78,7 +82,7 @@ const FloorsAndRooms = ({
 
 Cards.Image = ImageSection;
 Cards.DetailsContainer = DetailsContainer;
-Cards.heading = Heading;
+Cards.Heading = Heading;
 Cards.CityState = CityState;
 Cards.Price = Price;
 Cards.FloorsAndRooms = FloorsAndRooms;
