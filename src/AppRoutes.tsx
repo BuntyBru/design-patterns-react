@@ -4,6 +4,7 @@ import ContainerPresentationalPattern from "./pages/ContainerPresentationalPatte
 import HOCPattern from "./pages/HOCPattern";
 import HooksPattern from "./pages/HooksPattern";
 import RenderProps from "./pages/RenderProps";
+import ProviderPattern from "./pages/ProviderPattern";
 
 const AppRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const AppRoutes = () => {
       <Route path="/hoc-pattern" element={<HOCPattern />} />
       <Route path="/render-props-pattern" element={<RenderProps />} />
       <Route path="/hooks-pattern" element={<HooksPattern />} />
+      <Route path="/provider-pattern" element={<ProviderPattern />} />
     </Routes>
   );
 };
