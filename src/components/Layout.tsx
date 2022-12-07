@@ -14,11 +14,15 @@ const StyledLayout = styled.div`
   color: white;
 `;
 
+const StyledChildHolder = styled.div`
+  margin-left: 100px;
+`;
+
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <StyledLayout>
       <Sidebar />
-      {children}
+      <StyledChildHolder>{children}</StyledChildHolder>
     </StyledLayout>
   );
 };

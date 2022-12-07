@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const StyledNavigationbar = styled.div`
   display: flex;
   gap: 20px;
-  width: 6rem;
+  width: 100px;
   position: fixed;
   top: 0px;
   padding: 60px 20px;
