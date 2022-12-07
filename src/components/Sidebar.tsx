@@ -28,7 +28,7 @@ const Sidebar = () => {
   return (
     <StyledNavigationbar>
       <Link to="/">Con/Pres</Link>
-      <Link to="/tilt">HOC</Link>
+      <Link to="/hoc-pattern">HOC</Link>
       <Link to="/pokemon">Render</Link>
       <Link to="/other-hook">Hook</Link>
       <Link to="/hoc-stuff">Provider</Link>
