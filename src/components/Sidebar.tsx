@@ -10,7 +10,7 @@ const StyledNavigationbar = styled.div`
   top: 0px;
   padding: 60px 20px;
   color: white;
-  background: #1f5f97;
+  background: #011729;;
   justify-content: flex-start;
   left: 0px;
   height: 100vh;

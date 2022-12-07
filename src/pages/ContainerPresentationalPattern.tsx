@@ -1,3 +1,8 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledParent = styled.div``;
+
 const ContainerPresentationalPattern = () => {
-  return <p>Hello</p>;
+  return <StyledParent>hello</StyledParent>;
 };
