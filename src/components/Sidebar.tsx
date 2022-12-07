@@ -31,8 +31,7 @@ const Sidebar = () => {
       <Link to="/hoc-pattern">HOC</Link>
       <Link to="/render-props-pattern">Render Props</Link>
       <Link to="/hooks-pattern">Hook</Link>
-      <Link to="/hoc-stuff">Provider</Link>
-      <Link to="/hoc-stuff">Compound</Link>
+      <Link to="/compound-pattern">Compound</Link>
     </StyledNavigationbar>
   );
 };
