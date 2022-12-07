@@ -11,3 +11,11 @@ export type ListingProps = {
   id: string;
 };
 
+export type WithLoaderProps = {
+  Component: React.FunctionComponent;
+  url: string;
+};
+
+export type HouseListProps = {
+  data: ListingProps[];
+};
