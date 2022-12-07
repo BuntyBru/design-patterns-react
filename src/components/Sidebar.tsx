@@ -30,8 +30,9 @@ const Sidebar = () => {
       <Link to="/">Con/Pres</Link>
       <Link to="/hoc-pattern">HOC</Link>
       <Link to="/render-props-pattern">Render Props</Link>
-      <Link to="/other-hook">Hook</Link>
+      <Link to="/hooks-pattern">Hook</Link>
       <Link to="/hoc-stuff">Provider</Link>
+      <Link to="/hoc-stuff">Compound</Link>
     </StyledNavigationbar>
   );
 };
