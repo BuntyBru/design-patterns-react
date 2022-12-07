@@ -9,7 +9,6 @@ const HouseListingComponent = () => {
     fetch("https://house-lydiahallie.vercel.app/api/listings")
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
         setData(res?.listings);
       });
   }, []);

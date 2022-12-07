@@ -15,7 +15,6 @@ function WithLoader<T extends HouseListProps>(
       fetch(url)
         .then((res) => res.json())
         .then((res) => {
-          console.log(res);
           setData(res?.listings);
         });
     }, []);

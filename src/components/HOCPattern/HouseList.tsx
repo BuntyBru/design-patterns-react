@@ -4,7 +4,6 @@ import Listing from "../ContainerPresentationalPattern/Lisitings";
 import WithLoader from "./withLoader";
 
 const HouseList = (props: HouseListProps) => {
-  console.log("==>", props);
   return (
     <div>
       {props.data?.map((element: ListingProps) => (
