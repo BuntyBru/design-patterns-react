@@ -1,5 +1,7 @@
+import React from "react";
+import TemperatureConverter from "../components/RenderProps/TemperatureConvertor";
 const RenderProps = () => {
-  return <p>Render Props</p>;
+  return <TemperatureConverter />;
 };
 
 export default RenderProps;
