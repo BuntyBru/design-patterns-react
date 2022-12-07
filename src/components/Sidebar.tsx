@@ -5,27 +5,33 @@ import { Link } from "react-router-dom";
 const StyledNavigationbar = styled.div`
   display: flex;
   gap: 20px;
-  width: 100%;
+  width: 6rem;
   position: fixed;
   top: 0px;
-  padding: 10px 20px;
+  padding: 60px 20px;
   color: white;
   background: #1f5f97;
-  justify-content: center;
+  justify-content: flex-start;
+  left: 0px;
+  height: 100vh;
+  flex-direction: column;
+
+}
   a {
     color: white;
-    font-weight: 900;
+    font-weight: 600;
+    text-align:initial;
   }
 `;
 
 const Sidebar = () => {
   return (
     <StyledNavigationbar>
-      <Link to="/">TicTacToe</Link>
-      <Link to="/tilt">Tilt</Link>
-      <Link to="/pokemon">Pokemon</Link>
-      <Link to="/other-hook">otherHook</Link>
-      <Link to="/hoc-stuff">hoc</Link>
+      <Link to="/">Con/Pres</Link>
+      <Link to="/tilt">HOC</Link>
+      <Link to="/pokemon">Render</Link>
+      <Link to="/other-hook">Hook</Link>
+      <Link to="/hoc-stuff">Provider</Link>
     </StyledNavigationbar>
   );
 };
