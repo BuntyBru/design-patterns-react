@@ -29,7 +29,7 @@ const Sidebar = () => {
     <StyledNavigationbar>
       <Link to="/">Con/Pres</Link>
       <Link to="/hoc-pattern">HOC</Link>
-      <Link to="/pokemon">Render</Link>
+      <Link to="/render-props-pattern">Render Props</Link>
       <Link to="/other-hook">Hook</Link>
       <Link to="/hoc-stuff">Provider</Link>
     </StyledNavigationbar>
