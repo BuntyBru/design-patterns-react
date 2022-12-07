@@ -12,10 +12,14 @@ const StyledLayout = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
+  width: 100%;
+  box-sizing: border-box;
 `;
 
 const StyledChildHolder = styled.div`
-  margin-left: 100px;
+  padding-left: 140px;
+  box-sizing: border-box;
+  width:100%
 `;
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
