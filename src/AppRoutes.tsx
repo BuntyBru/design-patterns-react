@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 
+import ContainerPresentationalPattern from "./pages/ContainerPresentationalPattern";
+
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<p>Hello</p>} />
+      <Route path="/" element={<ContainerPresentationalPattern />} />
     </Routes>
   );
 };

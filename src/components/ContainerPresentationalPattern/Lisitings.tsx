@@ -1,15 +1,5 @@
 import styled from "styled-components";
-type ListingProps = {
-  title: string;
-  image: string;
-  name: string;
-  city: string;
-  state: string;
-  price: number;
-  floors: number;
-  rooms: number;
-  sqft: number;
-};
+import { ListingProps } from "../../types/ConPresTypes";
 
 const StyledListingContainer = styled.div`
   display: flex;
